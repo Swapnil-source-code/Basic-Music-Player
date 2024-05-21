@@ -106,4 +106,53 @@ nav .circle{
 }
 
 
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 768px) {
+  nav {
+    margin-bottom: 15px;
+  }
+  .music-player {
+    width: 45%;
+    padding: 25px 35px;
+  }
+  .song-img {
+    width: 150px;
+    height: 150px;
+  }
+  #progress {
+    width: 80%;
+    margin: 30px 0px;
+  }
+  .controls div {
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+  }
+}
+
+ /* Media Query for Mobile Devices */
+ @media (max-width: 480px) {
+  nav {
+    margin-bottom: 15px;
+  }
+  .music-player {
+    width: 80%;
+    padding: 25px 35px;
+  }
+  .song-img {
+    width: 140px;
+    height: 140px;
+  }
+  #progress {
+    margin: 30px 0px;
+  }
+  .controls div {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+  }
+  .controls .fa {
+    font-size: x-small;
+  }
+}
 
